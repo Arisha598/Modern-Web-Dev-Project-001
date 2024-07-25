@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    user-select: none;
+}
+.mini-circle{
+    transition: all cubic-bezier(0.19, 1, 0.22, 1);
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 999;
+}
+.main{
+    width: 100%;
+    background-color: black;
+}
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    color: #fff;
+    position: relative;
+}
+.navbar{
+    width: 100%;
+    padding: 12px 17px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main-heading{
+    padding-top: 39px;
+}
+.main-heading h1{
+    font-size: 5.5vw;
+    margin-left: 30px;
+    line-height: 1;
+    text-transform: uppercase;
+    font-weight: 600;
+    opacity: .6;
+}
+.main-heading .second-heading {
+    margin-left: 110px;
+}
+.main-heading h3{
+    margin-left: 380px;
+    font-weight: 400;
+    line-height: .8;
+    opacity: .6;
+}
+.choti-heading {
+    margin-top: 9vw;
+    padding-right: 20px;
+}
+.choti-heading  h5{
+    text-align: right;
+    font-size: 1.1vw;
+    text-transform: uppercase;
+    line-height:1.6;
+}
+.foot-heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 1%;
+    width: 100%;
+    padding: 0 2vw;
+}
+.foot-heading a{
+    color: #fff;
+    text-decoration: none;
+}
+.foot-heading .iconset{
+display: flex;
+gap: 7px;
+}
+.iconset .circle{
+    width: 25px;
+    height: 25px;
+    background-color:rgb(150, 148, 148);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.second-page{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    padding-top: 6.5vw ;
+    padding-right: 9vw;
+    color: #fff;
+}
+.elem{
+    border-top: 1px solid #888;
+    width: 100%;
+    position: relative;
+}
+.elem h1{
+    font-size: 5vw;
+    padding: 2vw 3vw;
+    opacity: .6;
+    text-transform: uppercase;
+}
+.elemlast{
+    border-bottom: 1px solid #888;
+}
+.elem img{
+    position: absolute;
+    z-index: 99;
+    height: 150px;
+    opacity: 0;
+    display: none;
+}
+.about{
+    width: 100%;
+    background-color: black;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 2vw 7vw;
+}
+.about img{
+    width: 18vw;
+    margin-left: 19vw;
+}
+.textabout h5{
+    text-transform: uppercase;
+    margin-bottom: 1vw;
+    margin-left: 2vw;
+}
+.textabout p{
+margin-bottom: 30px;
+line-height: 1.5;
+margin-left: 2vw;
+}
+.textabout a{
+border: 1px solid #fff;
+padding: 12px 22px;
+color: #fff;
+margin-left: 2vw;
+margin-top: 4vw;
+border-radius: 100px;
+text-decoration: none;
+}
+.subscribe{
+    width: 100%;
+    color: #fff;
+    background-color: black;
+}
+.subscribe h5{
+    font-size:1.1vw;
+    text-transform: uppercase;
+    margin-left: 2vw;
+}
+.subscribe .sub-para{
+    display: flex;
+}
+.sub-para{
+    text-transform: uppercase;
+    margin-left: 2vw;
+    margin-top: .8vw;
+}
+.footer{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    color: #fff;
+    padding: 20px 30px;
+    padding-top: 140px;
+}
+.left-footer{
+display: flex;
+gap: 20px;
+font-size: 1.4vw;
+margin-left: 1vw;
+}
+.left-footer h5{
+    font-weight: 200;
+}
+.right-footer a{
+color: #fff;
+text-decoration:none;
+text-transform: uppercase;
+gap: 15px;
+margin-left: 1vw;
+font-size: 1.1vw;
+}
